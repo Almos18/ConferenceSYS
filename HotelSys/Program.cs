@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace HotelSys
+namespace ConferenceSYS_Prototype
 {
     static class Program
     {
@@ -16,7 +16,8 @@ namespace HotelSys
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new frmMainMenu());
+         //   Application.Run(new frmMainMenu());
         }
     }
 }
